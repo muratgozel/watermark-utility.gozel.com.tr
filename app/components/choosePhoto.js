@@ -29,7 +29,7 @@ module.exports = new Component({
           // store image
           const imgelem = new Image()
           imgelem.onload = function() {
-            Frond.updateState({imageElement: this, datauri: reader.result})
+            Frond.updateState({imageElement: this})
           }
           imgelem.src = reader.result
 
@@ -65,7 +65,7 @@ module.exports = new Component({
             // store image
             const imgelem = new Image()
             imgelem.onload = function() {
-              Frond.updateState({imageElement: this, datauri: reader.result})
+              Frond.updateState({imageElement: this})
             }
             imgelem.src = reader.result
 

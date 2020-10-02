@@ -18,7 +18,7 @@ Frond
   .on('warning', function(msg, ctx) {
     if (!Frond.isProd()) console.warn(msg, ctx)
   })
-  .createState({imageElement: null, cropopts: {}})
+  .createState({imageElement: null, cropopts: {}, watermarkImageElement: null})
   /*
     load translations when ready:
     .loadTranslation('en_US', require('../translations/en_US.json'))

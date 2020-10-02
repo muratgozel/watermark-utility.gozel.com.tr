@@ -1,6 +1,6 @@
 {
   "name": "watermark-utility.gozel.com.tr",
-  "version": "20.10.0",
+  "version": "20.10.1",
   "description": "Apply watermark to your social media photos.",
   "main": "build/index.js",
   "license": "UNLICENSED",
