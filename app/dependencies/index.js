@@ -10,6 +10,16 @@ module.exports = {
       }
     ]
   },
+  picajs: {
+    assets: [
+      {
+        id: 'picajs',
+        url: 'https://cdnjs.cloudflare.com/ajax/libs/pica/6.1.1/pica.min.js',
+        async: true,
+        location: 'headEnd'
+      }
+    ]
+  }
   /*
   pdfmake: {
     assets: [

@@ -1,9 +1,9 @@
 const {Frond} = require('@frondjs/frond')
-//const reducer = require('image-blob-reduce')()
-const pica = require('pica')()
 const formatSizeMap = require('./formatSizeMap')
 
 module.exports = function drawImage(format, original=false, callback=undefined) {
+  const pica = new window.pica()
+
   const {imageElement, cropopts} = Frond.getState()
   const {x, y, width, height} = cropopts
   const formatWidth = formatSizeMap[format].width * (original === true ? 3 : 1)

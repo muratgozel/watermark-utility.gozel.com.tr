@@ -1,10 +1,11 @@
 const {Frond} = require('@frondjs/frond')
-const pica = require('pica')()
 const formatSizeMap = require('./formatSizeMap')
 
 module.exports = function drawWatermark(
   format='', pos=undefined, size=50, opacity=5, original=false, callback=undefined
 ) {
+  const pica = new window.pica()
+
   const sizeFactor = original ? 1 : 1/3
 
   const watermarkimg = Frond.getState().watermarkImageElement

@@ -1,7 +1,7 @@
 module.exports = {
   "runtime": {
     "pkgname": "watermark-utility.gozel.com.tr",
-    "version": "20.10.3",
+    "version": "20.10.4",
     "env": "production",
     "name": "Watermark Utility",
     "description": "Apply watermark to your social media photos.",
