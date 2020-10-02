@@ -13,7 +13,7 @@ module.exports = {
                 class: '@props.css.logo-link',
                 children: {
                   img: {
-                    src: '{{assets:img/logomark.png}}',
+                    src: '{{assets:img/watermark-utility.png}}',
                     height: '60',
                     alt: 'Logo'
                   }
