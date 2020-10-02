@@ -2,8 +2,8 @@
 # This file created automatically by Monodrom, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: watermark-utility.gozel.com.tr 20.10.1\n"
-"POT-Creation-Date: 2020-10-02T15:07:36.037Z\n"
+"Project-Id-Version: watermark-utility.gozel.com.tr 20.10.2\n"
+"POT-Creation-Date: 2020-10-02T15:14:47.483Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
