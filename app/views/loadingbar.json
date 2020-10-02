@@ -1,0 +1,15 @@
+{
+  "div": {
+    "id": "loadingbar",
+    "class": {
+      "case @state.disabled": ["@props.css.loadingbar", "@props.css.loadingbar-disabled"],
+      "otherwise": "@props.css.loadingbar"
+    },
+    "children": {
+      "div": {
+        "class": "@props.css.loadingbar-content",
+        "text": ""
+      }
+    }
+  }
+}
